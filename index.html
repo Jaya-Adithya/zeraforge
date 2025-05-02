@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeraForge - Tech Training Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="logo-container">
+            <svg class="logo" viewBox="0 0 100 100">
+                <path class="logo-path" d="M20,50 L40,20 L60,50 L80,20 M40,80 L60,50 L80,80" />
+            </svg>
+        </div>
+        <div class="loading-text">ZERAFORGE</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="#home">ZERAFORGE</a>
+            </div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#expertise" class="nav-link">Expertise</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#events" class="nav-link">Events</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title" data-aos="fade-up">Welcome to <span class="highlight">ZeraForge</span></h1>
+            <div class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                <span class="typing"></span>
+            </div>
+            <div class="hero-badges" data-aos="fade-up" data-aos-delay="400">
+                <div class="badge">
+                    <i class="fas fa-certificate"></i>
+                    <span>MSME Registered</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-award"></i>
+                    <span>Certified</span>
+                </div>
+            </div>
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="600">
+                <a href="#contact" class="cta-button">Join Our Team</a>
+                <a href="#expertise" class="cta-button secondary">Explore</a>
+            </div>
+        </div>
+        <div class="hero-particles" id="particles-js"></div>
+        <div class="ember-particles">
+            <div class="ember"></div>
+            <div class="ember"></div>
+            <div class="ember"></div>
+            <div class="ember"></div>
+            <div class="ember"></div>
+            <div class="ember"></div>
+            <div class="ember"></div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">Our Expertise</h2>
+            <div class="section-subtitle" data-aos="fade-up" data-aos-delay="100">What we're good at</div>
+            
+            <div class="expertise-grid">
+                <div class="expertise-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="card-title">Development</h3>
+                    <p class="card-description">Full-stack solutions with cutting-edge technologies</p>
+                </div>
+                <div class="expertise-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="card-title">Technical Training</h3>
+                    <p class="card-description">Specialized programs for B.Tech students</p>
+                </div>
+                <div class="expertise-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="card-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 class="card-title">Project Management</h3>
+                    <p class="card-description">Building efficient teams to deliver results</p>
+                </div>
+                <div class="expertise-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="card-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="card-title">Innovation</h3>
+                    <p class="card-description">Creating solutions that transform industries</p>
+                </div>
+                <div class="expertise-card" data-aos="flip-left" data-aos-delay="500">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="card-title">Team Building</h3>
+                    <p class="card-description">Creating collaborative environments for success</p>
+                </div>
+                <div class="expertise-card" data-aos="flip-left" data-aos-delay="600">
+                    <div class="card-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="card-title">Client Relations</h3>
+                    <p class="card-description">Connecting teams with real-world projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">Our Team</h2>
+            <div class="section-subtitle" data-aos="fade-up" data-aos-delay="100">The minds behind ZeraForge</div>
+            
+            <div class="team-grid">
+                <div class="team-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-front">
+                        <div class="team-img-placeholder"></div>
+                        <h3 class="member-name">John Doe</h3>
+                        <p class="member-title">Founder & CEO</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="member-bio">With over 15 years of experience in tech industry, John leads our strategic vision and operations.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-front">
+                        <div class="team-img-placeholder"></div>
+                        <h3 class="member-name">Jane Smith</h3>
+                        <p class="member-title">Head of Training</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="member-bio">Jane develops our cutting-edge training programs and mentors students through their technical journey.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card-front">
+                        <div class="team-img-placeholder"></div>
+                        <h3 class="member-name">Michael Johnson</h3>
+                        <p class="member-title">Technical Director</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="member-bio">Michael oversees all technical aspects of our projects and ensures we stay at the cutting edge of technology.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card-front">
+                        <div class="team-img-placeholder"></div>
+                        <h3 class="member-name">Sarah Lee</h3>
+                        <p class="member-title">Client Relations</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="member-bio">Sarah connects our teams with clients, ensuring projects meet requirements and exceed expectations.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">Upcoming Events</h2>
+            <div class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Join us for learning and networking</div>
+            
+            <div class="events-timeline">
+                <div class="event-card" data-aos="fade-right" data-aos-delay="100">
+                    <div class="event-date">
+                        <span class="month">MAY</span>
+                        <span class="day">15</span>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Tech Workshop Series</h3>
+                        <p class="event-description">A series of workshops covering the latest technologies for B.Tech students.</p>
+                        <div class="event-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Virtual Event</span>
+                            <span><i class="fas fa-clock"></i> 3:00 PM - 7:00 PM</span>
+                        </div>
+                        <a href="#" class="event-register">Register Now</a>
+                    </div>
+                </div>
+                <div class="event-card" data-aos="fade-right" data-aos-delay="200">
+                    <div class="event-date">
+                        <span class="month">JUN</span>
+                        <span class="day">10</span>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">ZeraForge Hackathon</h3>
+                        <p class="event-description">48-hour hackathon to solve real-world problems with innovative solutions.</p>
+                        <div class="event-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Tech Hub</span>
+                            <span><i class="fas fa-clock"></i> 9:00 AM - 9:00 AM (48hrs)</span>
+                        </div>
+                        <a href="#" class="event-register">Register Now</a>
+                    </div>
+                </div>
+                <div class="event-card" data-aos="fade-right" data-aos-delay="300">
+                    <div class="event-date">
+                        <span class="month">JUL</span>
+                        <span class="day">22</span>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Career Fair</h3>
+                        <p class="event-description">Connect with our team and learn about opportunities to join ZeraForge.</p>
+                        <div class="event-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> University Campus</span>
+                            <span><i class="fas fa-clock"></i> 10:00 AM - 4:00 PM</span>
+                        </div>
+                        <a href="#" class="event-register">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">About ZeraForge</h2>
+            <div class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Our mission and vision</div>
+            
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right" data-aos-delay="200">
+                    <div class="image-placeholder"></div>
+                </div>
+                <div class="about-text" data-aos="fade-left" data-aos-delay="200">
+                    <h3>Our Story</h3>
+                    <p>ZeraForge was founded with a mission to bridge the gap between academic learning and industry requirements. We identify talented B.Tech students in their 3rd and final years, provide specialized training, and build project teams that work with real clients.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>To transform promising engineering students into industry-ready professionals through hands-on experience and mentorship.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat" data-aos="zoom-in" data-aos-delay="300">
+                            <span class="stat-number" data-count="100">0</span>
+                            <span class="stat-label">Students Trained</span>
+                        </div>
+                        <div class="stat" data-aos="zoom-in" data-aos-delay="400">
+                            <span class="stat-number" data-count="25">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat" data-aos="zoom-in" data-aos-delay="500">
+                            <span class="stat-number" data-count="15">0</span>
+                            <span class="stat-label">Industry Partners</span>
+                        </div>
+                    </div>
+                    
+                    <div class="certifications">
+                        <div class="certification" data-aos="flip-up" data-aos-delay="600">
+                            <i class="fas fa-certificate"></i>
+                            <span>MSME Registered</span>
+                        </div>
+                        <div class="certification" data-aos="flip-up" data-aos-delay="700">
+                            <i class="fas fa-award"></i>
+                            <span>Industry Certified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">Testimonials</h2>
+            <div class="section-subtitle" data-aos="fade-up" data-aos-delay="100">What our students and clients say</div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                            <p>ZeraForge completely transformed my career path. Their training and real-world project experience gave me the edge I needed to land my dream job.</p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img-placeholder"></div>
+                            <div class="author-info">
+                                <h4>Priya Sharma</h4>
+                                <p>B.Tech Graduate, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                            <p>The team at ZeraForge delivered our project on time and exceeded our expectations. The students were professional and technically skilled.</p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img-placeholder"></div>
+                            <div class="author-info">
+                                <h4>Ravi Kumar</h4>
+                                <p>CTO, TechSolutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                            <p>I joined ZeraForge in my third year, and it was the best decision I made. The hands-on training and mentorship prepared me for real industry challenges.</p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img-placeholder"></div>
+                            <div class="author-info">
+                                <h4>Arjun Patel</h4>
+                                <p>B.Tech Graduate, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="section-subtitle" data-aos="fade-up" data-aos-delay="100">We'd love to hear from you</div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Tech Park, Innovation Street, Bangalore</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@zeraforge.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <div class="form-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <div class="form-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                            <div class="form-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                            <div class="form-border"></div>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>ZERAFORGE</h2>
+                <p>Building tomorrow's tech talent today</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#expertise">Expertise</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#events">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>More</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 ZeraForge. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
